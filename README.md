@@ -1,2 +1,3 @@
-# qr-code
-Small webpage for creating QR codes on input string
+# Static website QR code generator
+Take input of a user and generate a valid QR code. 
+Also make it possible to download via button.

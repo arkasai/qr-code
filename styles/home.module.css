@@ -1,0 +1,59 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    #justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 40%;
+    padding: 12px 20px;
+    margin-top: 25px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3.5rem;
+}
+
+/* Tablet */
+@media (max-width: 1200px) {
+    .grid {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .input {
+        width: 50%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+    .input {
+        width: 75%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .input {
+        width: 100%;
+    }
+}
